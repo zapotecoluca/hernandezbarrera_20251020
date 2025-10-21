@@ -46,16 +46,20 @@ public class Main {
         System.out.println("EXTRAER VALORES DE LA PILA");
         System.out.println("Se ha extraido el valor de: "+miPila.pop());
         System.out.println("Se ha extraido el valor de: "+miPila.pop());
+        System.out.println(); //SALTO DE LINEA
         
         System.out.println("MOSTRANDO VALORES DE LA PILA");
         miPila.mostrar();
         System.out.println("Tamaño actual de la pila "+miPila.tamano()+" elementos");
         System.out.println(); //SALTO DE LINEA
         
+        System.out.println("SE EXTRAEN TODOS LOS ELEMENTOS DE LA PILA");
+        //SE RECORREN LOS VALORES DE LA PILA
         while(!miPila.estaVacia()) {
             System.out.println("Se ha extraido el valor de: "+miPila.pop());
         }
         System.out.println(); //SALTO DE LINEA
+        
         
         miPila.pop();
         System.out.println(); //SALTO DE LINEA
